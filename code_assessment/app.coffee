@@ -44,7 +44,7 @@ app.get '/auth', (req, res, next) ->
     res.render 'home.jade'
     return
 
-app.use '/api', require('./routes/router')
+app.use '/api', require('./routes/routes')
 server = app.listen PORT, (request, response) ->
   host = server.address().host;
   port = server.address().port
