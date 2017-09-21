@@ -30,13 +30,11 @@ app.get '/', (req, res, next) ->
   return
 
 app.get '/auth', (req, res, next) ->
-  console.log "In partials"
   res.render 'auth.jade'
   return
 
 
   app.get '/signin', (req, res, next) ->
-    console.log "In partials"
     res.render 'signin.jade'
     return
 
@@ -48,6 +46,6 @@ app.use '/api', require('./routes/routes')
 server = app.listen PORT, (request, response) ->
   host = server.address().host;
   port = server.address().port
-  console.log 'app is listening at ${port}'
+  console.log 'app is listening at' +port
 
 module.exports = app
