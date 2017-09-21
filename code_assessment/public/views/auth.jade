@@ -1,0 +1,27 @@
+.auth-container(ng-controller='authController', style='text-align:center')
+  div
+     //- button.btn.btn-primary.btn-lg.mybutton.btn-block(ng-click='login()') SignIn
+  .register
+  .col-md-12.rem-pad
+    .col-md-4
+    .col-md-4.form-background   
+    form
+      .align-login
+        span Sign Up to the  Portal
+      .text-field
+        input.form-control(type='text', placeholder='Enter Username', ng-model='username', value='')
+      .text-field
+        input.form-control(type='password', placeholder='Enter Password', ng-model='password', value='')
+      .login-button
+        button.btn.btn-primary.btn-lg.mybutton.btn-block( ng-click='signup()') SIGNUP
+      .login-button
+        button.btn.btn-primary.btn-lg.mybutton.btn-block( ng-click='login()') SIGNIN   
+     .col-md-4
+  .col-md-12
+   
+.signin
+
+
+
+
+ 

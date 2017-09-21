@@ -1,0 +1,26 @@
+.align-login {
+    text-align: center;
+    font-family: roboto;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.rem-pad {
+    padding: 0;
+    margin-top: 50px;
+}
+
+.text-field {
+        width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.login-button {
+	width: 30%;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
