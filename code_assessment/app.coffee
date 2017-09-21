@@ -27,20 +27,20 @@ app.use bodyParser.urlencoded(extended: true)
 
 app.get '/', (req, res, next) ->
   res.render 'index.jade'
-  return
+  
 
 app.get '/auth', (req, res, next) ->
   res.render 'auth.jade'
-  return
+  
 
 
   app.get '/signin', (req, res, next) ->
     res.render 'signin.jade'
-    return
+    
 
-    app.get '/home', (req, res, next) ->
+  app.get '/home', (req, res, next) ->
     res.render 'home.jade'
-    return
+    
 
 app.use '/api', require('./routes/routes')
 server = app.listen PORT, (request, response) ->
