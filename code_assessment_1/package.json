@@ -1,0 +1,31 @@
+{
+  "name": "code_assessment",
+  "version": "1.0.0",
+  "description": "Login Form",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.12.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "coffeescript": "^2.0.0"
+  }
+}
